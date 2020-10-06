@@ -67,6 +67,11 @@ Port: 443
 ![Alt text](screenshots/log-files-2.png?raw=true "Logs2")
 ![Alt text](screenshots/log-files-3.png?raw=true "Logs3")
 
+## Enhancements
+How I would improve the project:
+- Have an Stage and Production environment
+- When stage its OK passes everything then you make the commit to production with a reviewer that accepts the new commit
+
 ## Demo 
 * Link to Project Demo
 https://youtu.be/YHhkOw0Sfjg
