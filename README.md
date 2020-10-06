@@ -12,6 +12,9 @@
 - Add Github Actions to the repo
 - Create Azure Pipeline
 
+## Projet Arquitecture
+![Alt text](screenshots/arq.png?raw=true "CD/CI Arquitecture")
+
 ## Instructions
 
 * Project running on Azure App Service
