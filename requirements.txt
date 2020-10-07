@@ -1,6 +1,2 @@
 pylint
 pytest
-locust
-flask
-pandas
-sklearn
