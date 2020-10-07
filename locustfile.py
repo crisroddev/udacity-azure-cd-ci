@@ -1,6 +1,6 @@
-from locust import HttpLocust, TaskSet, task
+from locust import HttpUser, TaskSet, task
 
-class MyTaskSet(TaskSet):
+class MyTask(TaskSet):
     @task
     def get_root_path(self):
         self.client.get("/")
@@ -9,7 +9,7 @@ class MyTaskSet(TaskSet):
     def get_predictions(self):
         self.client.get("/predictions")
 
-class MyLocust(HttpLocust):
+class MyLocust(HttpUser):
     task_set = MyTask
 
     min_wait = 1000
