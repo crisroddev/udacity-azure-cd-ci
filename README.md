@@ -12,9 +12,12 @@
 - Add Github Actions to the repo
 - Create Azure Pipeline
 
-## Projet Arquitecture
+## Project Arquitecture
 ![Alt text](screenshots/arq.png?raw=true "CD/CI Arquitecture")
 
+## Project Plan
+* [Link Project Plan Google Sheets](https://docs.google.com/spreadsheets/d/1i-65rF7W7J3e0yg0FJB9fBvrFL1WQMbj2DClCh8Gq7Y/edit?usp=sharing).
+* [Link Project Plan Trello Board](https://trello.com/b/yPZ9DsMa/udacity-cd-ci-pipeline).
 ## Instructions
 
 * Project running on Azure App Service
