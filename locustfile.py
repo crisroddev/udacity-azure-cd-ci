@@ -7,7 +7,7 @@ class MyTask(TaskSet):
     
     @task
     def get_predictions(self):
-        self.client.get("/predictions")
+        self.client.get("/predict")
 
 class MyLocust(HttpUser):
     task_set = MyTask
